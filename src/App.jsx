@@ -302,7 +302,7 @@ function App() {
       <header className="app-header glass">
         <div className="logo-group">
           <div className="logo-icon"><MapIcon size={24} color="#f59e0b" /></div>
-          <h1>人生が整うまでに行きたい100のサウナ</h1>
+          <h1>人生が整うまでに訪れたい100のサウナ</h1>
         </div>
         <div className="nav-actions">
           <div className="search-bar glass">
