@@ -348,7 +348,7 @@ const SaunaDetailModal = ({ sauna, user, onClose, onTotonoi }) => {
                             </Section>
 
                             {/* Category 4: Rest Space (Middle - Spans 2 Columns) */}
-                            <div style={{ gridColumn: 'span 2' }}>
+                            <div className="full-width-section">
                                 <Section title="外気浴・休憩" icon={Wind}>
                                     <div className="flex-row">
                                         <InfoItem label="外気浴" value={sauna.has_outdoor_space ? 'あり' : 'なし'} />
