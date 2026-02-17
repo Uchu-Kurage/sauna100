@@ -1753,13 +1753,11 @@ main {
   }
 
   .logo-group h1 {
-    font-size: 0.8rem;
-    /* Slightly smaller to fit all buttons */
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 130px;
-    /* Reduced to ensure right-side buttons fit */
+    font-size: 0.75rem;
+    font-weight: 800;
+    line-height: 1.2;
+    max-width: none;
+    display: block;
   }
 
   .nav-actions {
@@ -1884,6 +1882,7 @@ main {
     opacity: 1;
   }
 }
+
 /* Utility Classes with High Priority */
 .mobile-only {
   display: none !important;
