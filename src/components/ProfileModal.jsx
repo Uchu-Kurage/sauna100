@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { X, Settings } from 'lucide-react';
 import { supabase } from '../utils/supabase';
 
-const ProfileModal = ({ onCancel }) => {
+const ProfileModal = ({ onCancel, onPrivacyClick }) => {
   return (
     <div className="modal-overlay fade-in">
       <div className="modal-container glass">
@@ -21,6 +21,15 @@ const ProfileModal = ({ onCancel }) => {
             <p style={{ fontSize: '0.85rem', color: '#64748b', margin: 0, textAlign: 'center' }}>
               現在、高度な設定機能は準備中です。
             </p>
+          </div>
+
+          <div style={{ marginTop: '24px', textAlign: 'center' }}>
+            <button
+              onClick={onPrivacyClick}
+              style={{ background: 'none', border: 'none', color: 'var(--primary)', fontSize: '0.8rem', cursor: 'pointer', textDecoration: 'underline' }}
+            >
+              プライバシーポリシーを確認
+            </button>
           </div>
         </div>
       </div>

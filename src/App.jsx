@@ -13,6 +13,7 @@ import { Map as MapIcon, Search, User, Trophy, RefreshCw, BarChart3, BookOpen, L
 import ConquestOverlay from './components/ConquestOverlay';
 import ConquestRewardModal from './components/ConquestRewardModal';
 import GuestPromptModal from './components/GuestPromptModal';
+import PrivacyPolicyModal from './components/PrivacyPolicyModal';
 
 // Memoized Card Component to prevent flickering
 const SaunaCard = memo(({ sauna, isSelected, onClick }) => {
@@ -57,6 +58,7 @@ function App() {
   const [showAnalysis, setShowAnalysis] = useState(false);
   const [showAuth, setShowAuth] = useState(false);
   const [showGuestPrompt, setShowGuestPrompt] = useState(false);
+  const [showPrivacy, setShowPrivacy] = useState(false);
   const [authMode, setAuthMode] = useState('login');
   const [user, setUser] = useState(null);
   const [showDetail, setShowDetail] = useState(null); // 詳細表示用のサウナ
@@ -400,10 +402,16 @@ function App() {
 
       {showProfile && (
         <ProfileModal
-          settings={settings}
-          onSave={handleSaveSettings}
           onCancel={() => setShowProfile(false)}
+          onPrivacyClick={() => {
+            setShowProfile(false);
+            setShowPrivacy(true);
+          }}
         />
+      )}
+
+      {showPrivacy && (
+        <PrivacyPolicyModal onClose={() => setShowPrivacy(false)} />
       )}
 
       {showDetail && (
