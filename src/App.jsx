@@ -8,7 +8,7 @@ import AuthModal from './components/AuthModal';
 import { initialMockData, loadSettings, saveSettings, saveSaunasCache, loadSaunasCache } from './utils/storage';
 import { supabase } from './utils/supabase';
 import { calculateMatchScore, getRecommendationBadge } from './utils/recommendation';
-import { Map as MapIcon, Search, User, Trophy, RefreshCw, BarChart3, BookOpen, LogOut, LogIn, Menu } from 'lucide-react';
+import { Map as MapIcon, Search, User, Trophy, RefreshCw, BarChart3, BookOpen, LogOut, LogIn, Menu, X } from 'lucide-react';
 
 import ConquestOverlay from './components/ConquestOverlay';
 import ConquestRewardModal from './components/ConquestRewardModal';
