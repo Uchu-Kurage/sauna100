@@ -3,95 +3,23 @@ import { X, Settings } from 'lucide-react';
 import { supabase } from '../utils/supabase';
 
 const ProfileModal = ({ onCancel }) => {
-  const [isSeeding, setIsSeeding] = useState(false);
-
-  // Debug function to seed 99 visits (Strictly Legendary)
-  const handleSeedVisits = async () => {
-    if (!window.confirm('【注意】既存の訪問データを全て削除し、伝説のサウナ（Legendary）を99件訪問した状態にリセットします。\nよろしいですか？')) return;
-
-    setIsSeeding(true);
-    try {
-      const { data: { user } } = await supabase.auth.getUser();
-      if (!user) {
-        alert('ログインしてください');
-        return;
-      }
-
-      // 0. Reset existing visits
-      const { error: deleteError } = await supabase
-        .from('visits')
-        .delete()
-        .eq('user_id', user.id);
-
-      if (deleteError) throw deleteError;
-
-      // 1. Get Legendary Saunas
-      const { data: saunas, error: saunasError } = await supabase
-        .from('saunas')
-        .select('id')
-        .eq('sauna_tier', 'legendary')
-        .order('id', { ascending: true })
-        .limit(99);
-
-      if (saunasError) throw saunasError;
-
-      if (saunas.length < 99) {
-        console.warn(`Only ${saunas.length} legendary saunas found in DB.`);
-        alert(`注意: データベースに伝説のサウナが ${saunas.length} 件しかありません。`);
-      }
-
-      // 2. Prepare visits
-      const visits = saunas.map(s => ({
-        user_id: user.id,
-        sauna_id: s.id,
-        visited_at: new Date().toISOString(),
-        totonoi_score: Math.floor(Math.random() * 30) + 70, // 70-99
-        totonoi_status: 'totonotta',
-        memo: 'Debug Seed Visit (Legendary)'
-      }));
-
-      // 3. Insert
-      const { error: insertError } = await supabase
-        .from('visits')
-        .upsert(visits, { onConflict: 'user_id, sauna_id' });
-
-      if (insertError) throw insertError;
-
-      alert(`完了: 既存データをリセットし、${visits.length}件の訪問データを生成しました。\nページをリロードして反映を確認してください。`);
-      window.location.reload();
-    } catch (err) {
-      console.error(err);
-      alert(`エラーが発生しました:\nCode: ${err.code}\nMessage: ${err.message}\nDetails: ${err.details || ''}`);
-    } finally {
-      setIsSeeding(false);
-    }
-  };
-
   return (
     <div className="modal-overlay fade-in">
       <div className="modal-container glass">
         <div className="modal-header">
           <div className="title-group">
             <Settings size={20} color="var(--primary)" />
-            <h2>設定・デバッグ</h2>
+            <h2>ユーザー設定</h2>
           </div>
           <button className="btn-icon" onClick={onCancel}><X size={20} /></button>
         </div>
 
         <div style={{ padding: '0 0 20px' }}>
-          <p className="description">開発者用ツール・設定メニューです。</p>
+          <p className="description">アカウント設定や基本設定の変更が可能です。</p>
 
-          <div style={{ marginTop: '20px' }}>
-            <button
-              type="button"
-              onClick={handleSeedVisits}
-              disabled={isSeeding}
-              style={{ width: '100%', padding: '12px', fontSize: '0.9rem', background: '#f1f5f9', border: 'none', borderRadius: '10px', color: '#64748b', cursor: 'pointer', fontWeight: 600 }}
-            >
-              {isSeeding ? 'データ生成中...' : '🛠️ Debug: 伝説のサウナ訪問履歴を生成 (99件)'}
-            </button>
-            <p style={{ fontSize: '0.75rem', color: '#94a3b8', marginTop: '8px', textAlign: 'center' }}>
-              ※既存の訪問データは全て削除（リセット）されます。
+          <div className="setting-section" style={{ marginTop: '20px', padding: '16px', background: '#f8fafc', borderRadius: '12px' }}>
+            <p style={{ fontSize: '0.85rem', color: '#64748b', margin: 0, textAlign: 'center' }}>
+              現在、高度な設定機能は準備中です。
             </p>
           </div>
         </div>
