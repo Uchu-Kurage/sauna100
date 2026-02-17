@@ -1769,39 +1769,19 @@ main {
   }
 
   .logo-group h1 {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
+    /* Slightly smaller to fit all buttons */
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 151px;
+    max-width: 130px;
+    /* Reduced to ensure right-side buttons fit */
   }
 
   .nav-actions {
-    gap: 6px;
-  }
-
-  .search-bar {
-    width: 36px;
-    height: 36px;
-    padding: 0;
-    justify-content: center;
-    border-radius: 10px;
-    overflow: hidden;
-    transition: width 0.3s ease;
-  }
-
-  .search-bar:focus-within {
-    width: 140px;
-    padding: 0 10px;
-  }
-
-  .search-bar input {
-    display: none;
-  }
-
-  .search-bar:focus-within input {
-    display: block;
-    width: 100%;
+    gap: 4px;
+    flex: 1;
+    justify-content: flex-end;
   }
 
   .sidebar {

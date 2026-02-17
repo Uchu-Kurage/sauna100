@@ -312,7 +312,7 @@ function App() {
           <h1>人生が整うまでに訪れたい100のサウナ</h1>
         </div>
         <div className="nav-actions">
-          <div className="search-bar glass">
+          <div className="search-bar glass desktop-only">
             <Search size={18} color="#94a3b8" />
             <input
               type="text"
@@ -321,7 +321,7 @@ function App() {
               onChange={(e) => setSearchTerm(e.target.value)}
             />
           </div>
-          <button className={`btn-icon ${isLoading ? 'rotating' : ''}`} onClick={fetchSaunas} title="同期">
+          <button className={`btn-icon desktop-only ${isLoading ? 'rotating' : ''}`} onClick={fetchSaunas} title="同期">
             <RefreshCw size={20} color="#64748b" />
           </button>
           <button className="btn-icon" onClick={() => setShowAnalysis(true)} title="嗜好分析">
