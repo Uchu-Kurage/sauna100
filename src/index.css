@@ -21,23 +21,7 @@
   --success: #10b981;
 }
 
-.mobile-only {
-  display: none;
-}
 
-.desktop-only {
-  display: block;
-}
-
-@media (max-width: 768px) {
-  .mobile-only {
-    display: flex;
-  }
-
-  .desktop-only {
-    display: none;
-  }
-}
 
 * {
   margin: 0;
@@ -1898,5 +1882,23 @@ main {
 
   to {
     opacity: 1;
+  }
+}
+/* Utility Classes with High Priority */
+.mobile-only {
+  display: none !important;
+}
+
+.desktop-only {
+  display: block !important;
+}
+
+@media (max-width: 768px) {
+  .mobile-only {
+    display: flex !important;
+  }
+
+  .desktop-only {
+    display: none !important;
   }
 }
