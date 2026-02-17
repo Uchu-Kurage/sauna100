@@ -8,7 +8,7 @@ import AuthModal from './components/AuthModal';
 import { initialMockData, loadSettings, saveSettings, saveSaunasCache, loadSaunasCache } from './utils/storage';
 import { supabase } from './utils/supabase';
 import { calculateMatchScore, getRecommendationBadge } from './utils/recommendation';
-import { Map as MapIcon, Search, User, Trophy, RefreshCw, BarChart3, BookOpen, LogOut, LogIn } from 'lucide-react';
+import { Map as MapIcon, Search, User, Trophy, RefreshCw, BarChart3, BookOpen, LogOut, LogIn, Menu } from 'lucide-react';
 
 import ConquestOverlay from './components/ConquestOverlay';
 import ConquestRewardModal from './components/ConquestRewardModal';
@@ -301,7 +301,14 @@ function App() {
       <div className="app-water-frame" />
       <header className="app-header glass">
         <div className="logo-group">
-          <div className="logo-icon"><MapIcon size={24} color="#f59e0b" /></div>
+          <button
+            className="btn-icon mobile-only"
+            onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+            style={{ marginRight: '8px' }}
+          >
+            <Menu size={24} color="var(--primary)" />
+          </button>
+          <div className="logo-icon desktop-only"><MapIcon size={24} color="#f59e0b" /></div>
           <h1>人生が整うまでに訪れたい100のサウナ</h1>
         </div>
         <div className="nav-actions">
@@ -381,6 +388,9 @@ function App() {
                     onClick={(s) => {
                       setSelectedSauna(s);
                       setShowDetail(s);
+                      if (window.innerWidth <= 768) {
+                        setIsSidebarOpen(false);
+                      }
                     }}
                   />
                 ))}

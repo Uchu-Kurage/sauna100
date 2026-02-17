@@ -21,6 +21,24 @@
   --success: #10b981;
 }
 
+.mobile-only {
+  display: none;
+}
+
+.desktop-only {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .mobile-only {
+    display: flex;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -1733,4 +1751,118 @@ main {
   backdrop-filter: blur(4px);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   z-index: 5;
+}
+/* Mobile Media Queries */
+@media (max-width: 768px) {
+  .app-header {
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    height: 56px;
+    padding: 0 12px;
+    border-radius: 12px;
+  }
+
+  .logo-group h1 {
+    font-size: 0.85rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 151px;
+  }
+
+  .nav-actions {
+    gap: 6px;
+  }
+
+  .search-bar {
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: width 0.3s ease;
+  }
+
+  .search-bar:focus-within {
+    width: 140px;
+    padding: 0 10px;
+  }
+
+  .search-bar input {
+    display: none;
+  }
+
+  .search-bar:focus-within input {
+    display: block;
+    width: 100%;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    bottom: 0;
+    width: 85%;
+    max-width: 320px;
+    border-radius: 0 20px 20px 0;
+    z-index: 5000;
+    background: white;
+    transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 80px 20px 20px;
+    box-shadow: 20px 0 25px -5px rgba(0, 0, 0, 0.1);
+  }
+
+  .sidebar.open {
+    left: 0;
+  }
+
+  .sidebar-header {
+    margin-bottom: 16px;
+  }
+
+  .sauna-card {
+    padding: 12px;
+  }
+
+  .card-top h3 {
+    font-size: 0.95rem;
+  }
+
+  .totonoi-action-bar-enhanced {
+    padding: 20px;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .totonoi-input-group {
+    gap: 16px;
+  }
+
+  .totonoi-textarea {
+    height: 100px;
+    width: 100%;
+  }
+
+  .photo-upload-strip, .btn-save-totonoi {
+    width: 72px;
+    height: 60px;
+    font-size: 0.7rem;
+  }
+
+  .sauna-hero-container {
+    width: calc(100% + 48px);
+    margin: -24px -24px 20px -24px;
+    height: 200px;
+  }
+
+  .detailed-view .flex-row {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .detailed-view .flex-row .info-item {
+    width: 100%;
+  }
 }
