@@ -64,7 +64,7 @@ function App() {
   const [showDetail, setShowDetail] = useState(null); // 詳細表示用のサウナ
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedSauna, setSelectedSauna] = useState(null);
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(window.innerWidth > 768);
   const [isLoading, setIsLoading] = useState(false); // Default to false if we have cache
   const [newConquest, setNewConquest] = useState(null); // 新規制覇都道府県
   const [showReward, setShowReward] = useState(false); // 制覇ご褒美画面
@@ -355,10 +355,21 @@ function App() {
       </header>
 
       <main>
+        {isSidebarOpen && (
+          <div
+            className="sidebar-overlay mobile-only"
+            onClick={() => setIsSidebarOpen(false)}
+          />
+        )}
         <aside className={`sidebar ${isSidebarOpen ? 'open' : ''}`}>
           <div className="sidebar-header">
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-              <h2>制覇状況</h2>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <button className="btn-icon mobile-only" onClick={() => setIsSidebarOpen(false)} style={{ border: 'none', background: 'none' }}>
+                  <X size={20} color="#64748b" />
+                </button>
+                <h2>制覇状況</h2>
+              </div>
               <div className="trophy-group">
                 <Trophy size={16} color="#f59e0b" />
                 <span>{displayCurrentCount} / {displayTotalCount}</span>
