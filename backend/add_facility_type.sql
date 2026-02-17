@@ -1,0 +1,1 @@
+ALTER TABLE saunas ADD COLUMN IF NOT EXISTS facility_type TEXT;

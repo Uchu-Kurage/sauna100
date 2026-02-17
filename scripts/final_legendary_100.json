@@ -1,0 +1,1302 @@
+[
+  {
+    "id": 1,
+    "name": "湯宿だいいち",
+    "coordinates": {
+      "lat": 43.5431,
+      "lng": 144.9785
+    },
+    "address": "北海道標津郡中標津町養老牛518",
+    "temp": 70,
+    "water_temp": 15,
+    "category": "旅館",
+    "description": "総ヒバ造りのサウナ室。オートロウリュあり。"
+  },
+  {
+    "id": 2,
+    "name": "北こぶし知床 ホテル＆リゾート",
+    "coordinates": {
+      "lat": 44.0706,
+      "lng": 144.9951
+    },
+    "address": "北海道斜里郡斜里町ウトロ東172",
+    "temp": 85,
+    "water_temp": 15,
+    "category": "ホテル",
+    "description": "オホーツク海を一望できる絶景サウナ。"
+  },
+  {
+    "id": 3,
+    "name": "登別グランドホテル",
+    "coordinates": {
+      "lat": 42.4947,
+      "lng": 141.1444
+    },
+    "address": "北海道登別市登別温泉町154",
+    "temp": 110,
+    "water_temp": 16,
+    "category": "ホテル",
+    "description": "最高110度の「鬼サウナ」が有名。"
+  },
+  {
+    "id": 4,
+    "name": "吹上温泉保養センター 白銀荘",
+    "coordinates": {
+      "lat": 43.4357,
+      "lng": 142.6416
+    },
+    "address": "北海道空知郡上富良野町吹上温泉",
+    "temp": 90,
+    "water_temp": 11,
+    "category": "公共",
+    "description": "「北の聖地」。冬は雪にダイブできる。"
+  },
+  {
+    "id": 5,
+    "name": "ニコーリフレ SAPPORO",
+    "coordinates": {
+      "lat": 43.0573,
+      "lng": 141.3551
+    },
+    "address": "北海道札幌市中央区南3条西2丁目14",
+    "temp": 90,
+    "water_temp": 16,
+    "category": "カプセル",
+    "description": "アウフグース・ショーが名物の札幌の名店。"
+  },
+  {
+    "id": 6,
+    "name": "Kushiro Marshland Hostel THE GEEK",
+    "coordinates": {
+      "lat": 43.1558,
+      "lng": 144.5125
+    },
+    "address": "北海道川上郡標茶町塘路原野8線39番2",
+    "temp": 100,
+    "water_temp": 15,
+    "category": "ホステル",
+    "description": "釧路湿原を望む薪ストーブサウナ。"
+  },
+  {
+    "id": 7,
+    "name": "スパメッツァとかち",
+    "coordinates": {
+      "lat": 42.9238,
+      "lng": 143.1558
+    },
+    "address": "北海道帯広市西18条南4丁目",
+    "temp": 90,
+    "water_temp": 9,
+    "category": "温浴",
+    "description": "ドラゴンサウナを楽しめる北海道の新聖地。"
+  },
+  {
+    "id": 8,
+    "name": "北海道ホテル",
+    "coordinates": {
+      "lat": 42.9103,
+      "lng": 143.1969
+    },
+    "address": "北海道帯広市西7条南19丁目1",
+    "temp": 85,
+    "water_temp": 16,
+    "category": "ホテル",
+    "description": "モール温泉での「ロウリュ」が最高の体験。"
+  },
+  {
+    "id": 9,
+    "name": "洞爺湖万世閣 ホテルレイクサイドテラス",
+    "coordinates": {
+      "lat": 42.5539,
+      "lng": 140.8197
+    },
+    "address": "北海道虻田郡洞爺湖町洞爺湖温泉21",
+    "temp": 90,
+    "water_temp": 15,
+    "category": "ホテル",
+    "description": "洞爺湖を眺める絶景外気浴。"
+  },
+  {
+    "id": 10,
+    "name": "tower eleven onsen & sauna",
+    "coordinates": {
+      "lat": 43.0033,
+      "lng": 141.6231
+    },
+    "address": "北海道北広島市共栄",
+    "temp": 85,
+    "water_temp": 16,
+    "category": "球場",
+    "description": "エスコンフィールド内にある世界初の球場サウナ。"
+  },
+  {
+    "id": 11,
+    "name": "知内温泉 呼吸の間",
+    "coordinates": {
+      "lat": 41.6025,
+      "lng": 140.3236
+    },
+    "address": "北海道上磯郡知内町字湯ノ里161-1",
+    "temp": 90,
+    "water_temp": 10,
+    "category": "旅館",
+    "description": "源泉かけ流しのサウナ「呼吸の間」。"
+  },
+  {
+    "id": 12,
+    "name": "星野リゾート 青森屋",
+    "coordinates": {
+      "lat": 40.6845,
+      "lng": 141.3653
+    },
+    "address": "青森県三沢市古間木山56",
+    "temp": 90,
+    "water_temp": 15,
+    "category": "ホテル",
+    "description": "ねぶたの装飾が施された「青森ねぶたサウナ」。"
+  },
+  {
+    "id": 13,
+    "name": "十和田サウナ",
+    "coordinates": {
+      "lat": 40.4294,
+      "lng": 140.8926
+    },
+    "address": "青森県十和田市十和田湖畔休屋486",
+    "temp": 95,
+    "water_temp": 10,
+    "category": "テント",
+    "description": "十和田湖を水風呂にする究極のアウトドア。"
+  },
+  {
+    "id": 14,
+    "name": "古戦場",
+    "coordinates": {
+      "lat": 38.9372,
+      "lng": 141.1114
+    },
+    "address": "岩手県一関市赤荻堺71",
+    "temp": 102,
+    "water_temp": 18,
+    "category": "温浴",
+    "description": "東北の聖地。強力な薬草サウナ。"
+  },
+  {
+    "id": 15,
+    "name": "星降る山荘 七時雨山荘",
+    "coordinates": {
+      "lat": 40.0917,
+      "lng": 141.1444
+    },
+    "address": "岩手県八幡平市古屋敷96",
+    "temp": 80,
+    "water_temp": 12,
+    "category": "旅館",
+    "description": "本格薪サウナと満天の星空の外気浴。"
+  },
+  {
+    "id": 16,
+    "name": "スパメッツァ仙台 竜泉寺の湯",
+    "coordinates": {
+      "lat": 38.3494,
+      "lng": 140.8719
+    },
+    "address": "宮城県仙台市泉区大沢2丁目5-9",
+    "temp": 90,
+    "water_temp": 8.5,
+    "category": "温浴",
+    "description": "伊達政宗をモチーフにした独眼竜ロウリュ。"
+  },
+  {
+    "id": 17,
+    "name": "汗蒸幕のゆ",
+    "coordinates": {
+      "lat": 38.3242,
+      "lng": 140.9031
+    },
+    "address": "宮城県仙台市泉区市名坂字実沢20",
+    "temp": 100,
+    "water_temp": 18,
+    "category": "温浴",
+    "description": "本格的な韓国式サウナ「汗蒸幕」。"
+  },
+  {
+    "id": 18,
+    "name": "タザワコサウナ",
+    "coordinates": {
+      "lat": 39.7578,
+      "lng": 140.7331
+    },
+    "address": "秋田県仙北市田沢湖田沢字春山145-15",
+    "temp": 95,
+    "water_temp": 10,
+    "category": "テント",
+    "description": "日本一深い田沢湖を水風呂として利用。"
+  },
+  {
+    "id": 19,
+    "name": "スイデンテラス",
+    "coordinates": {
+      "lat": 38.7401,
+      "lng": 139.8139
+    },
+    "address": "山形県鶴岡市北京田字下鳥ノ巣23-1",
+    "temp": 85,
+    "water_temp": 16,
+    "category": "ホテル",
+    "description": "田んぼに浮かぶ芸術的サウナ。"
+  },
+  {
+    "id": 20,
+    "name": "スーパー銭湯テルメ",
+    "coordinates": {
+      "lat": 38.2144,
+      "lng": 140.3121
+    },
+    "address": "山形県山形市蔵王成沢字車屋156-1",
+    "temp": 90,
+    "water_temp": 16,
+    "category": "温浴",
+    "description": "天然温泉と広いサウナ室を備えた人気店。"
+  },
+  {
+    "id": 21,
+    "name": "ひばりの湯",
+    "coordinates": {
+      "lat": 37.2661,
+      "lng": 140.3703
+    },
+    "address": "福島県須賀川市滑津字中津代1-1",
+    "temp": 98,
+    "water_temp": 18,
+    "category": "銭湯",
+    "description": "高火力かつ多湿なサウナが絶大な支持。"
+  },
+  {
+    "id": 22,
+    "name": "湯乃泉 草加健康センター",
+    "coordinates": {
+      "lat": 35.857,
+      "lng": 139.7891
+    },
+    "address": "埼玉県草加市北谷2-23-23",
+    "temp": 100,
+    "water_temp": 15,
+    "category": "健康ランド",
+    "description": "サウナの聖地。ブロワーロウリュの代名詞。"
+  },
+  {
+    "id": 23,
+    "name": "湯乃泉 東名厚木健康センター",
+    "coordinates": {
+      "lat": 35.4497,
+      "lng": 139.3486
+    },
+    "address": "神奈川県厚木市岡田3-17-10",
+    "temp": 100,
+    "water_temp": 15,
+    "category": "健康ランド",
+    "description": "草加と並ぶ聖地。圧倒的な熱波体験。"
+  },
+  {
+    "id": 24,
+    "name": "スパメッツァおおたか 竜泉寺の湯",
+    "coordinates": {
+      "lat": 35.91,
+      "lng": 139.923
+    },
+    "address": "千葉県流山市おおたかの森西1-15-3",
+    "temp": 90,
+    "water_temp": 9,
+    "category": "温浴",
+    "description": "5台のストーブが鎮座するドラゴンサウナ。"
+  },
+  {
+    "id": 25,
+    "name": "Sea Sauna Shack",
+    "coordinates": {
+      "lat": 34.98,
+      "lng": 139.81
+    },
+    "address": "千葉県館山市波左間1063-2",
+    "temp": 90,
+    "water_temp": 15,
+    "category": "アウトドア",
+    "description": "房総の海を望む貸切絶景サウナ。"
+  },
+  {
+    "id": 26,
+    "name": "スカイスパYOKOHAMA",
+    "coordinates": {
+      "lat": 35.4658,
+      "lng": 139.6253
+    },
+    "address": "神奈川県横浜市西区高島2-19-12",
+    "temp": 90,
+    "water_temp": 15,
+    "category": "温浴",
+    "description": "横浜の空に浮かぶフィンランドサウナ。"
+  },
+  {
+    "id": 27,
+    "name": "8HOTEL SHONAN FUJISAWA",
+    "coordinates": {
+      "lat": 35.3364,
+      "lng": 139.4878
+    },
+    "address": "神奈川県藤沢市鵠沼花沢町1-5",
+    "temp": 85,
+    "water_temp": 16,
+    "category": "ホテル",
+    "description": "海外のような空気感のプールサイド・サウナ。"
+  },
+  {
+    "id": 28,
+    "name": "朝日湯源泉ゆいる",
+    "coordinates": {
+      "lat": 35.5089,
+      "lng": 139.7126
+    },
+    "address": "神奈川県川崎市川崎区鋼管通3-1-2",
+    "temp": 95,
+    "water_temp": 13,
+    "category": "温浴",
+    "description": "琥珀色の天然温泉と強烈な熱波が魅力。"
+  },
+  {
+    "id": 29,
+    "name": "THERMAL SPA S.WAVE",
+    "coordinates": {
+      "lat": 35.3045,
+      "lng": 139.2934
+    },
+    "address": "神奈川県中郡大磯町国府本郷546",
+    "temp": 80,
+    "water_temp": 18,
+    "category": "ホテル",
+    "description": "大磯ロングビーチを望むインフィニティ・サウナ。"
+  },
+  {
+    "id": 30,
+    "name": "別邸 仙寿庵",
+    "coordinates": {
+      "lat": 36.8055,
+      "lng": 138.9482
+    },
+    "address": "群馬県利根郡みなかみ町谷川684-2",
+    "temp": 90,
+    "water_temp": 10,
+    "category": "旅館",
+    "description": "最高級宿の薪サウナと谷川岳の天然水。"
+  },
+  {
+    "id": 31,
+    "name": "大谷元気炉六号基",
+    "coordinates": {
+      "lat": 36.5939,
+      "lng": 139.8189
+    },
+    "address": "栃木県宇都宮市大谷町1174",
+    "temp": 70,
+    "water_temp": 15,
+    "category": "アート",
+    "description": "薬草スチームが体験できる巨大アートサウナ。"
+  },
+  {
+    "id": 32,
+    "name": "BOTANICAL POOL CLUB",
+    "coordinates": {
+      "lat": 35.1011,
+      "lng": 139.8465
+    },
+    "address": "千葉県安房郡鋸南町下佐久間1510-2",
+    "temp": 85,
+    "water_temp": 18,
+    "category": "ホテル",
+    "description": "プールを水風呂にする至高のリゾート。"
+  },
+  {
+    "id": 33,
+    "name": "舞浜ユーラシア",
+    "coordinates": {
+      "lat": 35.6199,
+      "lng": 139.8893
+    },
+    "address": "千葉県浦安市千鳥13-20",
+    "temp": 95,
+    "water_temp": 16,
+    "category": "温浴",
+    "description": "本格フィンランドサウナとケロサウナ。"
+  },
+  {
+    "id": 34,
+    "name": "O Park OGOSE",
+    "coordinates": {
+      "lat": 35.9455,
+      "lng": 139.3145
+    },
+    "address": "埼玉県入間郡毛呂山町下各務385-1",
+    "temp": 80,
+    "water_temp": 17,
+    "category": "アウトドア",
+    "description": "サウナスイートキャビンでプライベートな整いを。"
+  },
+  {
+    "id": 35,
+    "name": "温泉バルコニー King & Queen",
+    "coordinates": {
+      "lat": 35.8118,
+      "lng": 139.4215
+    },
+    "address": "埼玉県所沢市北中2丁目445",
+    "temp": 85,
+    "water_temp": 18,
+    "category": "温浴",
+    "description": "関東最大のアウトドア温浴バルコニー。"
+  },
+  {
+    "id": 36,
+    "name": "サウナ東京",
+    "coordinates": {
+      "lat": 35.6766,
+      "lng": 139.7398
+    },
+    "address": "東京都港区赤坂3-13-4",
+    "temp": 100,
+    "water_temp": 8,
+    "category": "温浴",
+    "description": "5つのサウナと3つの水風呂を備えた都内最強級。"
+  },
+  {
+    "id": 37,
+    "name": "TOTOPA 都立明治公園店",
+    "coordinates": {
+      "lat": 35.6798,
+      "lng": 139.7118
+    },
+    "address": "東京都新宿区霞ヶ丘町5-7",
+    "temp": 95,
+    "water_temp": 12,
+    "category": "温浴",
+    "description": "18通りのととのいを提供する都市型サウナ。"
+  },
+  {
+    "id": 38,
+    "name": "かるまる池袋",
+    "coordinates": {
+      "lat": 35.7303,
+      "lng": 139.7093
+    },
+    "address": "東京都豊島区池袋2-7-7",
+    "temp": 80,
+    "water_temp": 5,
+    "category": "温浴",
+    "description": "サウナーの夢が詰まった「サンダートルネード」。"
+  },
+  {
+    "id": 39,
+    "name": "サウナ＆カプセルホテル 北欧",
+    "coordinates": {
+      "lat": 35.7135,
+      "lng": 139.7788
+    },
+    "address": "東京都台東区上野7-2-16",
+    "temp": 103,
+    "water_temp": 14,
+    "category": "カプセル",
+    "description": "「サ道」の聖地。都心の空の下での外気浴。"
+  },
+  {
+    "id": 40,
+    "name": "渋谷SAUNAS",
+    "coordinates": {
+      "lat": 35.6565,
+      "lng": 139.7013
+    },
+    "address": "東京都渋谷区桜丘町18-9",
+    "temp": 90,
+    "water_temp": 15,
+    "category": "温浴",
+    "description": "タナカカツキ氏プロデュース。8つのサウナ室。"
+  },
+  {
+    "id": 41,
+    "name": "黄金湯",
+    "coordinates": {
+      "lat": 35.7001,
+      "lng": 139.8145
+    },
+    "address": "東京都墨田区太平4-14-6",
+    "temp": 100,
+    "water_temp": 15,
+    "category": "銭湯",
+    "description": "リノベ銭湯の旗手。DJ番台×本格サウナ。"
+  },
+  {
+    "id": 42,
+    "name": "改良湯",
+    "coordinates": {
+      "lat": 35.6532,
+      "lng": 139.7095
+    },
+    "address": "東京都渋谷区東2-19-9",
+    "temp": 95,
+    "water_temp": 15,
+    "category": "銭湯",
+    "description": "渋谷のデザイン銭湯。鯨のロゴと高い没入感。"
+  },
+  {
+    "id": 43,
+    "name": "ニューウイング",
+    "coordinates": {
+      "lat": 35.6961,
+      "lng": 139.8139
+    },
+    "address": "東京都墨田区江東橋2-6-11",
+    "temp": 95,
+    "water_temp": 15,
+    "category": "カプセル",
+    "description": "錦糸町の絶対王者。ボナサームとテルマーレ改。"
+  },
+  {
+    "id": 44,
+    "name": "タイムズ スパ・レスタ",
+    "coordinates": {
+      "lat": 35.7262,
+      "lng": 139.7197
+    },
+    "address": "東京都豊島区東池袋4-25-9",
+    "temp": 90,
+    "water_temp": 15,
+    "category": "スパ",
+    "description": "池袋の大人の隠れ家。至高のオートロウリュ。"
+  },
+  {
+    "id": 45,
+    "name": "マルシンスパ",
+    "coordinates": {
+      "lat": 35.6749,
+      "lng": 139.6738
+    },
+    "address": "東京都渋谷区笹塚1-58-6",
+    "temp": 100,
+    "water_temp": 16,
+    "category": "サウナ施設",
+    "description": "「天空のアジト」。笹塚を見下ろす笹塚の聖地。"
+  },
+  {
+    "id": 46,
+    "name": "スパ ラクーア",
+    "coordinates": {
+      "lat": 35.7073,
+      "lng": 139.7533
+    },
+    "address": "東京都文京区後楽1-3-61",
+    "temp": 85,
+    "water_temp": 17,
+    "category": "スパ",
+    "description": "都心のリゾート。本格的な「オールドログ」。"
+  },
+  {
+    "id": 47,
+    "name": "サウナランド浅草",
+    "coordinates": {
+      "lat": 35.7119,
+      "lng": 139.7944
+    },
+    "address": "東京都台東区浅草1-34-2",
+    "temp": 90,
+    "water_temp": 15,
+    "category": "温浴",
+    "description": "薪サウナと鉄板料理が楽しめる独自のコンセプト。"
+  },
+  {
+    "id": 48,
+    "name": "Sauna Lab 神田",
+    "coordinates": {
+      "lat": 35.6931,
+      "lng": 139.7583
+    },
+    "address": "東京都千代田区神田錦町3-9",
+    "temp": 80,
+    "water_temp": 0,
+    "category": "温浴",
+    "description": "フィンランドの空気を神田で。アイスサウナ完備。"
+  },
+  {
+    "id": 49,
+    "name": "PARADIS",
+    "coordinates": {
+      "lat": 35.6493,
+      "lng": 139.7483
+    },
+    "address": "東京都港区三田4-1-1",
+    "temp": 90,
+    "water_temp": 15,
+    "category": "温浴",
+    "description": "銭湯の歴史を残しつつ現代化したデザイナーズサウナ。"
+  },
+  {
+    "id": 50,
+    "name": "品川サウナ",
+    "coordinates": {
+      "lat": 35.6069,
+      "lng": 139.7333
+    },
+    "address": "東京都品川区大井1-6-1",
+    "temp": 90,
+    "water_temp": 16,
+    "category": "温浴",
+    "description": "大井町の新たな聖地。屋上での開放的な整い。"
+  },
+  {
+    "id": 51,
+    "name": "堀田湯",
+    "coordinates": {
+      "lat": 35.7716,
+      "lng": 139.789
+    },
+    "address": "東京都足立区関原3-20-14",
+    "temp": 95,
+    "water_temp": 15,
+    "category": "銭湯",
+    "description": "薬草ロウリュと露天の「整い」が評判。"
+  },
+  {
+    "id": 52,
+    "name": "松本湯",
+    "coordinates": {
+      "lat": 35.7081,
+      "lng": 139.6919
+    },
+    "address": "東京都中野区東中野5-29-12",
+    "temp": 95,
+    "water_temp": 15,
+    "category": "銭湯",
+    "description": "極上の深い水風呂と、ジャズが流れるサウナ室。"
+  },
+  {
+    "id": 53,
+    "name": "湯どんぶり栄湯",
+    "coordinates": {
+      "lat": 35.7276,
+      "lng": 139.8033
+    },
+    "address": "東京都台東区日本堤1-4-5",
+    "temp": 100,
+    "water_temp": 16,
+    "category": "銭湯",
+    "description": "どんぶりを水風呂として楽しむ下町の人気銭湯。"
+  },
+  {
+    "id": 54,
+    "name": "萩の湯",
+    "coordinates": {
+      "lat": 35.7231,
+      "lng": 139.7781
+    },
+    "address": "東京都台東区根岸2-13-13",
+    "temp": 95,
+    "water_temp": 17,
+    "category": "銭湯",
+    "description": "都内最大級の公衆浴場。広大なサウナ室が魅力。"
+  },
+  {
+    "id": 55,
+    "name": "豊島園 庭の湯",
+    "coordinates": {
+      "lat": 35.7426,
+      "lng": 139.6481
+    },
+    "address": "東京都練馬区向山3-25-1",
+    "temp": 90,
+    "water_temp": 16,
+    "category": "温浴",
+    "description": "都心に広がる日本庭園と、本格フィンランドサウナ。"
+  },
+  {
+    "id": 56,
+    "name": "サウナしきじ",
+    "coordinates": {
+      "lat": 34.9507,
+      "lng": 138.414
+    },
+    "address": "静岡県静岡市駿河区敷地2-25-1",
+    "temp": 110,
+    "water_temp": 16,
+    "category": "温浴",
+    "description": "天然水かけ流しの水風呂は「飲める美味さ」。"
+  },
+  {
+    "id": 57,
+    "name": "ウェルビー栄",
+    "coordinates": {
+      "lat": 35.1664,
+      "lng": 136.9057
+    },
+    "address": "愛知県名古屋市中区栄3-13-12",
+    "temp": 90,
+    "water_temp": -5,
+    "category": "カプセル",
+    "description": "アイスサウナと森のサウナ。名古屋の名門。"
+  },
+  {
+    "id": 58,
+    "name": "ウェルビー今池",
+    "coordinates": {
+      "lat": 35.1665,
+      "lng": 136.9384
+    },
+    "address": "愛知県名古屋市千種区今池5-25-5",
+    "temp": 95,
+    "water_temp": 15,
+    "category": "カプセル",
+    "description": "個室サウナ「からふろ」での瞑想体験。"
+  },
+  {
+    "id": 59,
+    "name": "大垣サウナ",
+    "coordinates": {
+      "lat": 35.3632,
+      "lng": 136.6334
+    },
+    "address": "岐阜県大垣市三塚町1222",
+    "temp": 100,
+    "water_temp": 15,
+    "category": "サウナ施設",
+    "description": "奇跡の地下水風呂。昭和レトロな雰囲気が最高。"
+  },
+  {
+    "id": 60,
+    "name": "サウナ・イーグル",
+    "coordinates": {
+      "lat": 35.0089,
+      "lng": 137.0356
+    },
+    "address": "愛知県知立市宝町塩掻58",
+    "temp": 95,
+    "water_temp": 16,
+    "category": "サウナ施設",
+    "description": "鋭い熱波と、シングルの冷水風呂。"
+  },
+  {
+    "id": 61,
+    "name": "ホテルマウント富士",
+    "coordinates": {
+      "lat": 35.4231,
+      "lng": 138.8901
+    },
+    "address": "山梨県南都留郡山中湖村山中1360-83",
+    "temp": 90,
+    "water_temp": 15,
+    "category": "ホテル",
+    "description": "富士山を望む絶景外気浴。"
+  },
+  {
+    "id": 62,
+    "name": "The Sauna",
+    "coordinates": {
+      "lat": 36.8341,
+      "lng": 138.2145
+    },
+    "address": "長野県上水内郡信濃町野尻379-2",
+    "temp": 90,
+    "water_temp": 10,
+    "category": "アウトドア",
+    "description": "野尻湖畔のフィンランド式薪サウナ。"
+  },
+  {
+    "id": 63,
+    "name": "スパ・アルプス",
+    "coordinates": {
+      "lat": 36.6769,
+      "lng": 137.2377
+    },
+    "address": "富山県富山市山室292-1",
+    "temp": 90,
+    "water_temp": 15,
+    "category": "サウナ施設",
+    "description": "立山連峰の天然水を使用した極上の水風呂。"
+  },
+  {
+    "id": 64,
+    "name": "しんきろう",
+    "coordinates": {
+      "lat": 36.82,
+      "lng": 137.4
+    },
+    "address": "富山県魚津市上口1-1-1",
+    "temp": 90,
+    "water_temp": 16,
+    "category": "温浴",
+    "description": "富山湾の神秘、蜃気楼をテーマにしたサウナ。"
+  },
+  {
+    "id": 65,
+    "name": "THE Hive",
+    "coordinates": {
+      "lat": 36.65,
+      "lng": 137.35
+    },
+    "address": "富山県中新川郡立山町",
+    "temp": 85,
+    "water_temp": 15,
+    "category": "宿",
+    "description": "ハニカム構造のサウナ室が特徴的な宿泊施設。"
+  },
+  {
+    "id": 66,
+    "name": "おちあいろう",
+    "coordinates": {
+      "lat": 34.8879,
+      "lng": 138.9198
+    },
+    "address": "静岡県伊豆市湯ケ島1887-1",
+    "temp": 90,
+    "water_temp": 16,
+    "category": "旅館",
+    "description": "重要文化財の宿にある、歴史とモダンが融合したサウナ。"
+  },
+  {
+    "id": 67,
+    "name": "サーマルクライムスタジオ富士",
+    "coordinates": {
+      "lat": 35.25,
+      "lng": 138.85
+    },
+    "address": "静岡県裾野市須山2255-3644",
+    "temp": 80,
+    "water_temp": 15,
+    "category": "サウナ施設",
+    "description": "富士山の麓で「登頂」を目指すサウナ体験。"
+  },
+  {
+    "id": 68,
+    "name": "大東洋 大阪",
+    "coordinates": {
+      "lat": 34.7052,
+      "lng": 135.5028
+    },
+    "address": "大阪府大阪市北区中崎西2-1-9",
+    "temp": 90,
+    "water_temp": 13,
+    "category": "カプセル",
+    "description": "大阪の老舗。シングルの水風呂。"
+  },
+  {
+    "id": 69,
+    "name": "なにわ健康ランド 湯～トピア",
+    "coordinates": {
+      "lat": 34.6646,
+      "lng": 135.5687
+    },
+    "address": "大阪府東大阪市長堂3-4-21",
+    "temp": 95,
+    "water_temp": 15,
+    "category": "健康ランド",
+    "description": "多種多様なサウナと熱烈な熱波が大阪名物。"
+  },
+  {
+    "id": 70,
+    "name": "ニュージャパン梅田",
+    "coordinates": {
+      "lat": 34.7032,
+      "lng": 135.5038
+    },
+    "address": "大阪府大阪市北区堂山町9-5",
+    "temp": 90,
+    "water_temp": 15,
+    "category": "カプセル",
+    "description": "世界初のカプセルホテルと多彩なサウナフロア。"
+  },
+  {
+    "id": 71,
+    "name": "神戸みなと温泉 蓮",
+    "coordinates": {
+      "lat": 34.6815,
+      "lng": 135.1934
+    },
+    "address": "兵庫県神戸市中央区新港町1-1",
+    "temp": 90,
+    "water_temp": 16,
+    "category": "ホテル",
+    "description": "神戸港を望む絶景と天然温泉サウナ。"
+  },
+  {
+    "id": 72,
+    "name": "八尾グランドホテル",
+    "coordinates": {
+      "lat": 34.6123,
+      "lng": 135.6127
+    },
+    "address": "大阪府八尾市八尾木北5-101",
+    "temp": 100,
+    "water_temp": 16,
+    "category": "ホテル",
+    "description": "強烈な打たせ水と熱いボナサウナ。ディープな名店。"
+  },
+  {
+    "id": 73,
+    "name": "大阪サウナDESSE",
+    "coordinates": {
+      "lat": 34.6738,
+      "lng": 135.5015
+    },
+    "address": "大阪府大阪市中央区南船場3-6-18",
+    "temp": 90,
+    "water_temp": 12,
+    "category": "温浴",
+    "description": "心斎橋に位置する都心最大級のアミューズメントサウナ。"
+  },
+  {
+    "id": 74,
+    "name": "ぬかとゆげ",
+    "coordinates": {
+      "lat": 35.62,
+      "lng": 135.12
+    },
+    "address": "京都府京丹後市峰山町杉谷941-1",
+    "temp": 80,
+    "water_temp": 15,
+    "category": "温浴",
+    "description": "発酵をテーマにした唯一無二のサウナ体験。"
+  },
+  {
+    "id": 75,
+    "name": "スパワールド 世界の大温泉",
+    "coordinates": {
+      "lat": 34.6508,
+      "lng": 135.5061
+    },
+    "address": "大阪府大阪市浪速区恵美須東3-4-24",
+    "temp": 90,
+    "water_temp": 18,
+    "category": "スパ",
+    "description": "新世界のランドマーク。世界のサウナと温泉が一堂に。"
+  },
+  {
+    "id": 76,
+    "name": "ume,sauna",
+    "coordinates": {
+      "lat": 34.65,
+      "lng": 135.95
+    },
+    "address": "奈良県山辺郡山添村大字波多野",
+    "temp": 85,
+    "water_temp": 16,
+    "category": "宿",
+    "description": "奈良の里山で薪サウナと地産の食を堪能。"
+  },
+  {
+    "id": 77,
+    "name": "神戸クアハウス",
+    "coordinates": {
+      "lat": 34.7001,
+      "lng": 135.1955
+    },
+    "address": "兵庫県神戸市中央区二宮町3-10-15",
+    "temp": 90,
+    "water_temp": 18,
+    "category": "カプセル",
+    "description": "名水「神戸ウォーター」100％の水風呂が自慢。"
+  },
+  {
+    "id": 78,
+    "name": "そらともり",
+    "coordinates": {
+      "lat": 33.8185,
+      "lng": 132.8049
+    },
+    "address": "愛媛県松山市南久米町3-1",
+    "temp": 85,
+    "water_temp": 16,
+    "category": "スパ",
+    "description": "静寂の中でのセルフロウリュと、森の外気浴。"
+  },
+  {
+    "id": 79,
+    "name": "伊予の湯治場 喜助のゆ",
+    "coordinates": {
+      "lat": 33.8413,
+      "lng": 132.7528
+    },
+    "address": "愛媛県松山市宮田町4",
+    "temp": 90,
+    "water_temp": 15,
+    "category": "スパ",
+    "description": "四国最大級。鬼をモチーフにした激アツ熱波。"
+  },
+  {
+    "id": 80,
+    "name": "パブリックハウス 久米屋",
+    "coordinates": {
+      "lat": 34.9,
+      "lng": 134.15
+    },
+    "address": "岡山県美作市久米8",
+    "temp": 85,
+    "water_temp": 16,
+    "category": "宿",
+    "description": "古民家を再生した薪サウナと交流の場。"
+  },
+  {
+    "id": 81,
+    "name": "SAUNAグリンピア",
+    "coordinates": {
+      "lat": 33.5594,
+      "lng": 133.5422
+    },
+    "address": "高知県高知市本町2-1-31",
+    "temp": 95,
+    "water_temp": 15,
+    "category": "サウナ施設",
+    "description": "高知の雄、土佐の熱風を肌で感じる名店。"
+  },
+  {
+    "id": 82,
+    "name": "Hiki stargazing sauna",
+    "coordinates": {
+      "lat": 34.5,
+      "lng": 132.5
+    },
+    "address": "広島県広島市",
+    "temp": 85,
+    "water_temp": 15,
+    "category": "アウトドア",
+    "description": "星空を眺めるために設計された究極の外気浴サウナ。"
+  },
+  {
+    "id": 83,
+    "name": "SANAMANE SAZAE",
+    "coordinates": {
+      "lat": 34.45,
+      "lng": 133.98
+    },
+    "address": "香川県香川郡直島町",
+    "temp": 85,
+    "water_temp": 17,
+    "category": "ホテル",
+    "description": "直島に佇む、サザエの殻をモチーフにした建築美サウナ。"
+  },
+  {
+    "id": 84,
+    "name": "塚原から風呂",
+    "coordinates": {
+      "lat": 34.25,
+      "lng": 134.2
+    },
+    "address": "香川県さぬき市",
+    "temp": 100,
+    "water_temp": 15,
+    "category": "歴史",
+    "description": "日本最古級の石風呂文化を現代に伝える聖地。"
+  },
+  {
+    "id": 85,
+    "name": "たま茶屋",
+    "coordinates": {
+      "lat": 34.34,
+      "lng": 134.04
+    },
+    "address": "香川県高松市",
+    "temp": 90,
+    "water_temp": 16,
+    "category": "温浴",
+    "description": "讃岐の風景と共に楽しむ本格サウナ。"
+  },
+  {
+    "id": 86,
+    "name": "せとうちサウナ",
+    "coordinates": {
+      "lat": 34.3,
+      "lng": 133
+    },
+    "address": "広島県尾道市",
+    "temp": 85,
+    "water_temp": 16,
+    "category": "アウトドア",
+    "description": "瀬戸内海の潮風を感じながら整う絶景ポイント。"
+  },
+  {
+    "id": 87,
+    "name": "道の駅 阿武町 鹿島温泉",
+    "coordinates": {
+      "lat": 34.5,
+      "lng": 131.45
+    },
+    "address": "山口県阿武郡阿武町",
+    "temp": 90,
+    "water_temp": 17,
+    "category": "公共",
+    "description": "日本海を眼前に臨む絶景パノラマサウナ。"
+  },
+  {
+    "id": 88,
+    "name": "らかんの湯",
+    "coordinates": {
+      "lat": 33.25,
+      "lng": 129.98
+    },
+    "address": "佐賀県武雄市武雄町武雄4100",
+    "temp": 90,
+    "water_temp": 16,
+    "category": "旅館",
+    "description": "日本一のサウナ。御船山楽園の自然が水風呂。"
+  },
+  {
+    "id": 89,
+    "name": "湯らっくす",
+    "coordinates": {
+      "lat": 32.7853,
+      "lng": 130.7022
+    },
+    "address": "熊本県熊本市中央区本荘町722",
+    "temp": 95,
+    "water_temp": 15,
+    "category": "サウナ施設",
+    "description": "西の聖地。阿蘇の伏流水に飛び込む「MAD MAX」。"
+  },
+  {
+    "id": 90,
+    "name": "ウェルビー福岡",
+    "coordinates": {
+      "lat": 33.5901,
+      "lng": 130.4101
+    },
+    "address": "福岡県福岡市博多区祇園町8-12",
+    "temp": 90,
+    "water_temp": 5,
+    "category": "カプセル",
+    "description": "本場フィンランドを再現したラップランドサウナ。"
+  },
+  {
+    "id": 91,
+    "name": "IZBA",
+    "coordinates": {
+      "lat": 33.8,
+      "lng": 130.5
+    },
+    "address": "福岡県宗像市神湊",
+    "temp": 85,
+    "water_temp": 15,
+    "category": "アウトドア",
+    "description": "九州唯一のロシア式バーニャが体験できる。"
+  },
+  {
+    "id": 92,
+    "name": "寒の地獄旅館",
+    "coordinates": {
+      "lat": 33.15,
+      "lng": 131.25
+    },
+    "address": "大分県玖重町田野257",
+    "temp": 80,
+    "water_temp": 13,
+    "category": "旅館",
+    "description": "日本屈指の強酸性水風呂と、伝統のサウナ文化。"
+  },
+  {
+    "id": 93,
+    "name": "亜熱帯サウナ",
+    "coordinates": {
+      "lat": 26.65,
+      "lng": 127.88
+    },
+    "address": "沖縄県本部町",
+    "temp": 90,
+    "water_temp": 18,
+    "category": "アウトドア",
+    "description": "沖縄のジャングルで整う、野生味溢れるサウナ。"
+  },
+  {
+    "id": 94,
+    "name": "琉球温泉 龍神の湯",
+    "coordinates": {
+      "lat": 26.1754,
+      "lng": 127.6457
+    },
+    "address": "沖縄県豊見城市字瀬長174-5",
+    "temp": 90,
+    "water_temp": 18,
+    "category": "ホテル",
+    "description": "東シナ海のサンセットを眺めながらの絶景整い。"
+  },
+  {
+    "id": 95,
+    "name": "サンカラホテル&スパ屋久島",
+    "coordinates": {
+      "lat": 30.25,
+      "lng": 130.6
+    },
+    "address": "鹿児島県屋久島町",
+    "temp": 85,
+    "water_temp": 15,
+    "category": "ホテル",
+    "description": "世界自然遺産の島で薪サウナと湧き水風呂。"
+  },
+  {
+    "id": 96,
+    "name": "HIDEAWAY sunset camp",
+    "coordinates": {
+      "lat": 33.55,
+      "lng": 130.15
+    },
+    "address": "福岡県糸島市",
+    "temp": 85,
+    "water_temp": 15,
+    "category": "アウトドア",
+    "description": "糸島の海岸線で波の音と共に整うキャンプサウナ。"
+  },
+  {
+    "id": 97,
+    "name": "サウナサン",
+    "coordinates": {
+      "lat": 33.17,
+      "lng": 129.72
+    },
+    "address": "長崎県佐世保市塩浜町6-15",
+    "temp": 90,
+    "water_temp": 15,
+    "category": "サウナ施設",
+    "description": "「整いの伝道師」足立氏が支える、佐世保の至宝。"
+  },
+  {
+    "id": 98,
+    "name": "ヘルシーランド たまて箱温泉",
+    "coordinates": {
+      "lat": 31.2,
+      "lng": 130.6
+    },
+    "address": "鹿児島県指宿市山川",
+    "temp": 90,
+    "water_temp": 18,
+    "category": "公共",
+    "description": "開聞岳を望む絶景サウナ。日本一の眺望とも称される。"
+  },
+  {
+    "id": 99,
+    "name": "ホテル オリエンタル福岡",
+    "coordinates": {
+      "lat": 33.5891,
+      "lng": 130.4201
+    },
+    "address": "福岡県福岡市博多区博多駅中央街4-23",
+    "temp": 85,
+    "water_temp": 16,
+    "category": "ホテル",
+    "description": "博多駅直結。スタイリッシュな都市型整い。"
+  },
+  {
+    "id": 100,
+    "name": "アクアガーデン",
+    "coordinates": {
+      "lat": 33.2843,
+      "lng": 131.4815
+    },
+    "address": "大分県別府市観海寺1",
+    "temp": 80,
+    "water_temp": 20,
+    "category": "スパ",
+    "description": "杉乃井ホテルの巨大温水プールサウナ。ショーも満喫。"
+  }
+]

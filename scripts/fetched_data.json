@@ -1,0 +1,362 @@
+[
+    {
+        "name": "湯宿だいいち",
+        "coordinates": {
+            "lat": 43.5431,
+            "lng": 144.9785
+        },
+        "address": "北海道標津郡中標津町養老牛518",
+        "temp": 70,
+        "water_temp": 15,
+        "category": "旅館",
+        "description": "総ヒバ造りのサウナ室。オートロウリュあり。養老牛温泉の一軒宿として有名。"
+    },
+    {
+        "name": "北こぶし知床 ホテル＆リゾート",
+        "coordinates": {
+            "lat": 44.0706,
+            "lng": 144.9951
+        },
+        "address": "北海道斜里郡斜里町ウトロ東172",
+        "temp": 85,
+        "water_temp": 15,
+        "category": "ホテル",
+        "description": "オホーツク海を一望できる「KAKUUNA」と「UNEUNA」の2つの絶景サウナが人気。"
+    },
+    {
+        "name": "知内温泉 呼吸の間",
+        "coordinates": {
+            "lat": 41.6025,
+            "lng": 140.3236
+        },
+        "address": "北海道上磯郡知内町字湯ノ里161-1",
+        "temp": 90,
+        "water_temp": 10,
+        "category": "旅館",
+        "description": "北海道最古の温泉宿。2024年にオープンした源泉かけ流しのサウナ「呼吸の間」が話題。"
+    },
+    {
+        "name": "登別グランドホテル",
+        "coordinates": {
+            "lat": 42.4947,
+            "lng": 141.1444
+        },
+        "address": "北海道登別市登別温泉町154",
+        "temp": 110,
+        "water_temp": 16,
+        "category": "ホテル",
+        "description": "最高110度の「鬼サウナ」が有名。登別温泉を代表する名門ホテル。"
+    },
+    {
+        "name": "吹上温泉保養センター 白銀荘",
+        "coordinates": {
+            "lat": 43.4357,
+            "lng": 142.6416
+        },
+        "address": "北海道空知郡上富良野町吹上温泉",
+        "temp": 90,
+        "water_temp": 11,
+        "category": "公共施設",
+        "description": "「北の聖地」と呼ばれる。セルフロウリュ可能。冬は水風呂の代わりに雪にダイブできる。"
+    },
+    {
+        "name": "ニコーリフレ SAPPORO",
+        "coordinates": {
+            "lat": 43.0573,
+            "lng": 141.3551
+        },
+        "address": "北海道札幌市中央区南3条西2丁目14 ニコービル4F",
+        "temp": 90,
+        "water_temp": 16,
+        "category": "カプセルホテル",
+        "description": "「1、2、サウナー！」の掛け声で有名なアウフグース・ショーが名物。"
+    },
+    {
+        "name": "Kushiro Marshland Hostel THE GEEK",
+        "coordinates": {
+            "lat": 43.1558,
+            "lng": 144.5125
+        },
+        "address": "北海道川上郡標茶町塘路原野8線39番2",
+        "temp": 100,
+        "water_temp": 15,
+        "category": "ホステル",
+        "description": "釧路湿原を望む薪ストーブサウナ。自然と一体になれる外気浴が魅力。"
+    },
+    {
+        "name": "サウナしきじ",
+        "coordinates": {
+            "lat": 34.9507,
+            "lng": 138.4140
+        },
+        "address": "静岡県静岡市駿河区敷地2-25-1",
+        "temp": 110,
+        "water_temp": 16,
+        "category": "サウナ施設",
+        "description": "「サウナの聖地」。天然水かけ流しの水風呂は「飲めるほど美味しい」と評判。"
+    },
+    {
+        "name": "らかんの湯",
+        "coordinates": {
+            "lat": 33.2500,
+            "lng": 129.9800
+        },
+        "address": "佐賀県武雄市武雄町武雄4100",
+        "temp": 90,
+        "water_temp": 16,
+        "category": "旅館",
+        "description": "サウナシュラン3年連続1位。御船山楽園の自然と一体化した究極のサウナ。"
+    },
+    {
+        "name": "湯らっくす",
+        "coordinates": {
+            "lat": 32.7853,
+            "lng": 130.7022
+        },
+        "address": "熊本県熊本市中央区本荘町722",
+        "temp": 95,
+        "water_temp": 15,
+        "category": "サウナ施設",
+        "description": "西の聖地。日本一深い水風呂と「MAD MAX」ボタンが有名。"
+    },
+    {
+        "name": "ウェルビー栄",
+        "coordinates": {
+            "lat": 35.1664,
+            "lng": 136.9057
+        },
+        "address": "愛知県名古屋市中区栄3-13-12",
+        "temp": 90,
+        "water_temp": -5,
+        "category": "カプセルホテル",
+        "description": "「アイスサウナ」と「森のサウナ」。名古屋を代表する名店。"
+    },
+    {
+        "name": "ウェルビー今池",
+        "coordinates": {
+            "lat": 35.1665,
+            "lng": 136.9384
+        },
+        "address": "愛知県名古屋市千種区今池5-25-5",
+        "temp": 95,
+        "water_temp": 15,
+        "category": "カプセルホテル",
+        "description": "「からふろ」と呼ばれる個室サウナが人気。今池の喧騒を離れた癒やし処。"
+    },
+    {
+        "name": "大垣サウナ",
+        "coordinates": {
+            "lat": 35.3632,
+            "lng": 136.6334
+        },
+        "address": "岐阜県大垣市三塚町1222",
+        "temp": 100,
+        "water_temp": 15,
+        "category": "サウナ施設",
+        "description": "奇跡の水風呂。昭和レトロな雰囲気と共に、極上の地下水を堪能。"
+    },
+    {
+        "name": "サウナ&カプセルホテル大東洋",
+        "coordinates": {
+            "lat": 34.7052,
+            "lng": 135.5028
+        },
+        "address": "大阪府大阪市北区中崎西2-1-9",
+        "temp": 90,
+        "water_temp": 13,
+        "category": "カプセルホテル",
+        "description": "大阪の老舗。フィンランドサウナとテルマーレ、そしてシングル水風呂。"
+    },
+    {
+        "name": "なにわ健康ランド 湯～トピア",
+        "coordinates": {
+            "lat": 34.6646,
+            "lng": 135.5687
+        },
+        "address": "大阪府東大阪市長堂3-4-21",
+        "temp": 95,
+        "water_temp": 15,
+        "category": "健康ランド",
+        "description": "多種多様なサウナと延羽の湯を彷彿とさせる熱烈なアウフグース。"
+    },
+    {
+        "name": "ニュージャパン梅田",
+        "coordinates": {
+            "lat": 34.7032,
+            "lng": 135.5038
+        },
+        "address": "大阪府大阪市北区堂山町9-5",
+        "temp": 90,
+        "water_temp": 15,
+        "category": "カプセルホテル",
+        "description": "世界初のカプセルホテル。趣向を凝らした3つのフロアのサウナ。"
+    },
+    {
+        "name": "神戸みなと温泉 蓮",
+        "coordinates": {
+            "lat": 34.6815,
+            "lng": 135.1934
+        },
+        "address": "兵庫県神戸市中央区新港町1-1",
+        "temp": 90,
+        "water_temp": 16,
+        "category": "ホテル",
+        "description": "神戸港の絶景と、地下から湧き出る天然温泉サウナ。"
+    },
+    {
+        "name": "八尾グランドホテル",
+        "coordinates": {
+            "lat": 34.6123,
+            "lng": 135.6127
+        },
+        "address": "大阪府八尾市八尾木北5-101",
+        "temp": 100,
+        "water_temp": 16,
+        "category": "ホテル",
+        "description": "圧倒的な打たせ水と、強烈なボナサウナ。ディープなサウナ体験。"
+    },
+    {
+        "name": "そらともり",
+        "coordinates": {
+            "lat": 33.8185,
+            "lng": 132.8049
+        },
+        "address": "愛媛県松山市南久米町3-1",
+        "temp": 85,
+        "water_temp": 16,
+        "category": "スパ施設",
+        "description": "森の中にいるような静寂。セルフロウリュと外気浴で深く整う。"
+    },
+    {
+        "name": "伊予の湯治場 喜助のゆ",
+        "coordinates": {
+            "lat": 33.8413,
+            "lng": 132.7528
+        },
+        "address": "愛媛県松山市宮田町4 キスケBOX",
+        "temp": 90,
+        "water_temp": 15,
+        "category": "スパ施設",
+        "description": "四国最大級。鬼ロウリュとミストサウナ、そして「亀」になれる外気浴。"
+    },
+    {
+        "name": "サウナ・イーグル",
+        "coordinates": {
+            "lat": 35.0089,
+            "lng": 137.0356
+        },
+        "address": "愛知県知立市宝町塩掻58",
+        "temp": 95,
+        "water_temp": 16,
+        "category": "サウナ施設",
+        "description": "「イーグル」の名に相応しい鋭い熱風と、シングル水風呂。"
+    },
+    {
+        "name": "サウナ東京",
+        "coordinates": {
+            "lat": 35.6766,
+            "lng": 139.7398
+        },
+        "address": "東京都港区赤坂3-13-4",
+        "temp": 100,
+        "water_temp": 8,
+        "category": "サウナ施設",
+        "description": "赤坂の新名所。5つのサウナと3つの水風呂を備えた都内最強クラスの一角。"
+    },
+    {
+        "name": "かるまる池袋",
+        "coordinates": {
+            "lat": 35.7303,
+            "lng": 139.7093
+        },
+        "address": "東京都豊島区池袋2-7-7",
+        "temp": 80,
+        "water_temp": 5,
+        "category": "サウナ施設",
+        "description": "サウナーの夢を詰め込んだ施設。アクリルアヴァントとサンダートルネード。"
+    },
+    {
+        "name": "サウナ＆カプセルホテル 北欧",
+        "coordinates": {
+            "lat": 35.7135,
+            "lng": 139.7788
+        },
+        "address": "東京都台東区上野7-2-16",
+        "temp": 103,
+        "water_temp": 14,
+        "category": "カプセルホテル",
+        "description": "「サ道」の聖地。上野の空の下、カレーと共に最高の「整い」を。"
+    },
+    {
+        "name": "黄金湯",
+        "coordinates": {
+            "lat": 35.7001,
+            "lng": 139.8145
+        },
+        "address": "東京都墨田区太平4-14-6",
+        "temp": 100,
+        "water_temp": 15,
+        "category": "銭湯",
+        "description": "銭湯の枠を超えたデザインと音。オートロウリュ付きの本格サウナ。"
+    },
+    {
+        "name": "改良湯",
+        "coordinates": {
+            "lat": 35.6532,
+            "lng": 139.7095
+        },
+        "address": "東京都渋谷区東2-19-9",
+        "temp": 95,
+        "water_temp": 15,
+        "category": "銭湯",
+        "description": "渋谷のデザイン銭湯。鯨のロゴと没入感のあるサウナ室が人気。"
+    },
+    {
+        "name": "別邸 仙寿庵",
+        "coordinates": {
+            "lat": 36.8055,
+            "lng": 138.9482
+        },
+        "address": "群馬県利根郡みなかみ町谷川684-2",
+        "temp": 90,
+        "water_temp": 10,
+        "category": "旅館",
+        "description": "高級宿ならではの薪サウナ。谷川岳の天然水かけ流しの水風呂は格別。"
+    },
+    {
+        "name": "ホテルマウント富士",
+        "coordinates": {
+            "lat": 35.4231,
+            "lng": 138.8901
+        },
+        "address": "山梨県南都留郡山中湖村山中1360-83",
+        "temp": 90,
+        "water_temp": 15,
+        "category": "ホテル",
+        "description": "富士山を正面に望む外気浴。天然水を使用した水風呂も最高。"
+    },
+    {
+        "name": "The Sauna",
+        "coordinates": {
+            "lat": 36.8341,
+            "lng": 138.2145
+        },
+        "address": "長野県上水内郡信濃町野尻379-2",
+        "temp": 90,
+        "water_temp": 10,
+        "category": "アウトドア",
+        "description": "野尻湖畔のフィンランド式薪サウナ。大自然の中での「整い」体験。"
+    },
+    {
+        "name": "御経塚のゆ",
+        "coordinates": {
+            "lat": 36.5414,
+            "lng": 136.6025
+        },
+        "address": "石川県野々市市御経塚4-38",
+        "temp": 90,
+        "water_temp": 16,
+        "category": "銭湯",
+        "description": "北陸の隠れた名店。高火力サウナと冷たい地下水風呂。"
+    }
+]
